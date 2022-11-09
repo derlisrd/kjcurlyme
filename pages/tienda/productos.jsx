@@ -1,14 +1,14 @@
 import React from 'react'
-import Link from "next/link"
+
 import { Box } from '@chakra-ui/react'
 
-const Contacto = () => {
+const Productos = () => {
   return (
     <Box mt="4">
-      <h1>CONTACTO</h1>
+      <h1>TINEDA</h1>
       
     </Box>
   )
 }
 
-export default Contacto
+export default Productos

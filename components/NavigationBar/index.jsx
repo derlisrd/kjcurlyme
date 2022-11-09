@@ -34,6 +34,7 @@ const NavigationBar = ({path,...rest}) => {
             display={{ base:'none', md:'flex' }} width={{ base:'full',md:'auto' }} alignItems="center" flexGrow={1} mt={{ base:4, md:0 }}
             >
                 <LinkItem path={path} href="/" > Inicio </LinkItem>
+                <LinkItem path={path} href="/tienda/productos" > Tienda </LinkItem>
                 <LinkItem path={path} href="/contacto" > Contacto </LinkItem>
             </Stack>
 
@@ -45,6 +46,7 @@ const NavigationBar = ({path,...rest}) => {
                         <MenuButton as={IconButton} icon={<HamburgerIcon fontVariant="outlined" />}  ></MenuButton>
                         <MenuList>
                             <MenuItem ><LinkItem path={path} href="/" > Inicio </LinkItem></MenuItem>
+                            <MenuItem ><LinkItem path={path} href="/tienda/productos" > Tienda </LinkItem></MenuItem>
                             <MenuItem><LinkItem path={path} href="/contacto" > Contacto </LinkItem></MenuItem>
                         </MenuList>
                     </Menu>
